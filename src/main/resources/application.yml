@@ -22,6 +22,15 @@ db:
   port: 2345
   name: sample-db
   password: standalone-password
+logging:
+  level:
+    root: WARN
+    org:springframework: INFO
+    com.samples.propertiessamples: INFO
+  file: /var/log/practice01/practice01.log
+  pattern:
+    file: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
+    console: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
 
 ---
 
@@ -40,6 +49,15 @@ db:
   port: 5432
   name: sample-db
   password: dev-password
+logging:
+  level:
+    root: WARN
+    org:springframework: INFO
+    com.samples.propertiessamples: INFO
+  file: /var/log/practice01/practice01.log
+  pattern:
+    file: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
+    console: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
 
 ---
 
@@ -58,3 +76,12 @@ db:
   port: 2312
   name: sample-db
   password: prod-password
+logging:
+  level:
+    root: WARN
+    org:springframework: INFO
+    com.samples.propertiessamples: INFO
+  file: /var/log/practice01/practice01.log
+  pattern:
+    file: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
+    console: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
