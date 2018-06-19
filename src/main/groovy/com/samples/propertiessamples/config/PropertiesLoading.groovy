@@ -64,7 +64,7 @@ public class PropertiesLoading {
     }
 
     String getFromEnv(String prop){
-        printProperties()
+        //printProperties()
         environment.getProperty(prop)
     }
 

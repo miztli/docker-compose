@@ -1,4 +1,5 @@
-
+Create Springboot App
+-
 - Start project from: 
 `https://github.com/miztli/springboot-profiles.git`
 
@@ -17,3 +18,14 @@
 ```
 	http :8080/greeting?name=Miztli
 ```
+
+Introducing Docker
+- 
+- Create app volume
+```
+	docker volume create vol-practice01
+```
+Other commands
+- List volumes: `docker volume ls`
+- Inspect volume: `docker volume inspect <name>`
+- Remove volumes: `docker volume rm <name>`
