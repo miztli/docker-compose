@@ -12,3 +12,8 @@
 ```
 	-Dspring.profiles.active=dev
 ```
+
+- Add HelloWorld controller, try with:
+```
+	http :8080/greeting?name=Miztli
+```
