@@ -15,7 +15,6 @@ security:
   user:
     password: no password
 server:
-  address: 127.0.0.1
   port: 8080
 db:
   address: localhost
